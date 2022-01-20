@@ -1,0 +1,23 @@
+body {
+  margin: 20vh 20vw;
+  overflow: hidden;
+  font-family: 'Lora', serif;
+}
+pre {
+  font-size: 7em;
+}
+.tick line {
+  stroke: #C0C0BB;
+}
+
+.tick p {
+  fill: #635F5D;
+  margin-right: 8px;
+  font-size: 0.8em;
+}
+.mark {
+  fill: #42A5B3;
+}
+.axis-label {
+  font-size: 2em;
+}
