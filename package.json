@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "rimraf -rf ./dist ./lib ./esm && rollup --config",
+    "ci": "run-s lint test build",
     "test": "jest --coverage",
     "test-live": "cross-env DEBUG_MODE=1 jest --coverage",
     "lint": "eslint --fix",
@@ -27,6 +28,7 @@
     "jest": "^26.0.1",
     "jest-electron": "^0.1.12",
     "lint-staged": "^13.0.1",
+    "npm-run-all": "^4.1.5",
     "rimraf": "^3.0.2",
     "rollup": "^2.75.6",
     "rollup-plugin-babel": "^4.4.0",
