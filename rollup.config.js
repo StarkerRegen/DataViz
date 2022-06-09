@@ -23,6 +23,6 @@ export default {
   ],
   plugins: [
     resolve(),
-    babel(),
+    babel(), // 使用 babel 插件
   ],
 };
