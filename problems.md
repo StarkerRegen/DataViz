@@ -31,3 +31,7 @@ fatal: refusing to merge unrelated histories
 
 问题产生的原因：
 当我们执行不带任何选项的`git pull`时，Git不知道应该使用哪种合并策略来执行该命令，因此会给出警告。
+
+解决：
+`git config pull.ff false`
+`
