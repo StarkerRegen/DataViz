@@ -2,6 +2,7 @@
   "json.schemaDownload.enable": false,
   "cSpell.words": [
     "commitlint",
-    "corejs"
+    "corejs",
+    "quantile"
   ]
 }
